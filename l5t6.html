@@ -1,0 +1,23 @@
+<html>
+  <body>
+    <button onclick="makePage();">Click Here</button>
+    <script>
+      function makePage() {
+        // Create the header
+        var header = document.createElement("h1");
+        header.innerText = "This is a header";
+        document.body.appendChild(header);
+
+        // Create the paragraph
+        var para = document.createElement("p");
+        para.innerText = "This is a paragraph";
+        document.body.appendChild(para);
+
+        // Create the image
+        var image = document.createElement("img");
+        image.src = "hungry gdog.webp   ";
+        document.body.appendChild(image);
+      }
+    </script>
+  </body>
+</html>
